@@ -4,6 +4,7 @@ import PopularProducts from '../PopularProducts/PopularProducts';
 import FeaturedFoods from '../FeaturedFoods/FeaturedFoods';
 import PopularFoods from '../PopularFoods/PopularFoods';
 import MobileApp from '../MobileApp/MobileApp';
+import Testimonials from '../Testimonials/Testimonials';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <FeaturedFoods></FeaturedFoods>
             <PopularFoods></PopularFoods>
             <MobileApp></MobileApp>
+            <Testimonials></Testimonials>
         </div>
     );
 };

@@ -4,8 +4,8 @@ import user2 from "../../../../Assets/Images/user2.jpg";
 
 const SingleTestimonital = () => {
   return (
-    <div className="flex justify-center my-8 mx-16 gap-12">
-      <div className="flex w-1/2 justify-center gap-3">
+    <div className="flex flex-col md:flex-row justify-center my-8 mx-16 gap-12">
+      <div className="flex flex-col md:flex-row w-full md:w-1/2 justify-center gap-3">
         <div className="w-1/2">
           <img src={user1} className="w-12 rounded-sm mt-3" alt="" />
         </div>
@@ -43,7 +43,7 @@ const SingleTestimonital = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-1/2 justify-center gap-3">
+      <div className="flex w-full flex-col md:flex-row md:w-1/2 justify-center gap-3">
         <div className="w-1/2">
           <img src={user2} className="w-12 rounded-sm mt-3" alt="" />
         </div>
